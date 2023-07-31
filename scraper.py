@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-url = ""
+url = "https://musclecharts.net/"
 response = requests.get(url)
 html_content = response.content
 
