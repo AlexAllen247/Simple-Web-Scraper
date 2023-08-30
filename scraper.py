@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
-url = "https://musclecharts.net/"
+url = "https://getbootstrap.com/docs/4.0/examples/album/"
 response = requests.get(url)
 html_content = response.content
 
